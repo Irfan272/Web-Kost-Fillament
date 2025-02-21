@@ -1,0 +1,4 @@
+- composer create-project laravel/laravel ngekos
+- Setting env
+- Setting migration dan model
+
