@@ -1,4 +1,24 @@
 - composer create-project laravel/laravel ngekos
 - Setting env
 - Setting migration dan model
+- php artisan storage:link
+- php artisan optimize
+- Installasi Fillament
+    1. composer require filament/filament:"^3.2" -W
+    2. php artisan filament:install --panels
+        > ID : admin
+        > Untuk ada tanda bintang di github pilih yes
+    3. php artisan make:filament-user     
+        > name : admin
+        > email : admin@kos.com
+        >  password : 123456789
+    4. php artisan serve
+    5. buka dengan /admin
+    6. login dengan email dan password diatas
+- CRUD City
+    1. php artisan make:filament-resource City
+    2. Create & Edit Form
+        > untuk membuat input form ada di Fillament\resource\CityResource.php pada function form
+    3. Menampilkan Data table nya 
+        > ada di function table
 
