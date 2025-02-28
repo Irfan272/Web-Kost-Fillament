@@ -22,3 +22,13 @@
     3. Menampilkan Data table nya 
         > ada di function table
 
+- Custom icon navigation
+    Buka di heroicons
+    1. ubah di resource dan sesuaikan dengan namaicon yang akan diganti
+            protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
+    2. Untuk mengemlompokan navigation
+        > protected static ?string $navigationGroup = 'Settings';
+        > letakan di resouce
+
+- Membuat Provider
+    php artisan make:provider RepositoryServiceProvider
